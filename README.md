@@ -17,6 +17,8 @@ The data folder contains the next files:
 
 4. consistent_params.ini: parameter file used by AGAMA to produce the initial setup of the N-body model.
 
+You also need to create a folder called 'diagnostic' where some test files will be created during the N-body modelling.
+
 ## Software requisites
 
 To run the code you will need to install the following modules (and all the required dependencies for all of them):
