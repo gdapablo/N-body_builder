@@ -19,7 +19,7 @@ The data folder contains the next files:
 
 ## Software requisites
 
-To run the code you will need the following modules (and all the required modules for all of them):
+To run the code you will need to install the following modules (and all the required dependencies for all of them):
 
 1. numpy
 
