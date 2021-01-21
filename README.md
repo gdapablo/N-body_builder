@@ -13,4 +13,26 @@ The data folder contains the next files:
 
 2. FCC170_HST_croped.fits: the croped HST image of the Fornax galaxy FCC 170 (NGC 1381) used to perform the 2D photometric decomposition.
 
-3. FCC170_pPXF_kineematics_SNR-40.fits: kinematics data proceding from Pinna et al. 2019a obtained by applying the penalized-pixel fitting routine (pPXF) as explained in Cappellari  &  Emsellem  (2004). This .fits file provides the kinematics to compare with our N-body model.
+3. FCC170_pPXF_kinematics_SNR-40.fits: kinematics data proceding from Pinna et al. 2019a obtained by applying the penalized-pixel fitting routine (pPXF) as explained in Cappellari  &  Emsellem  (2004). This .fits file provides the kinematics to compare with our N-body model.
+
+4. consistent_params.ini: parameter file used by AGAMA to produce the initial setup of the N-body model.
+
+## Software requisites
+
+To run the code you will need the following modules (and all the required modules for all of them):
+
+1. numpy
+
+2. matplotlib
+
+3. agama
+
+4. pyimfit
+
+5. astropy
+
+6. acstools
+
+7. mpl_toolkits
+
+8. configparser
